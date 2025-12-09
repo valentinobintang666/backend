@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f2ff, #f3e8ff);
+  color: #1f2937;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(79,70,229,0.08);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+input {
+  width: 95%;
+  padding: 12px;
+  margin: 6px 0;
+  border: 2px solid #c7d2fe;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99,102,241,0.2);
+}
+
+button {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  padding: 12px;
+  color: #ffffff;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+tr:hover td {
+  background: #f5f7ff;
+}
+
+.btn-edit {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  color: #fff;
+}
+
+.btn-hapus {
+  background: linear-gradient(135deg, #ef4444, #f87171);
+  margin-left: 5px;
+  color: #fff;
+}
